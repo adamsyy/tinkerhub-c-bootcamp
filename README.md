@@ -8,12 +8,13 @@ Pls send a screen recording with a voiceover of one of the team members explaini
 
 Submission deadline:
 Tuesday, 24/08/21 12am
-
-Incase you are using google drive to share the source code, create a folder inside: https://bit.ly/3jbNU6Z in the format teamleadsname-projecttopic  and upload your video recording and source code
+<br>
+Incase you are using google drive to share the source code, create a folder inside:
+https://bit.ly/3jbNU6Z in the format teamleadsname-projecttopic  and upload your video recording and source code
 
 Incase you are using github, submit a pull request to the repository:
 https://github.com/weberstills/tinkerhub-c-bootcamp
-
+<br>
 In both the cases you should upload the screen recording of your project to the google drive.
 Incase of any doubts do not hesitate to contact the mentors.
 
