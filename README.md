@@ -1,5 +1,4 @@
-# Tinkerhub MEC C Bootcamp
-<br>
+![Tinkerhub MEC](https://cdn1.bbcode0.com/uploads/2021/8/21/d18d91d3283f9d363693b2f2344967ed-full.jpg)
 Heyyo! Hope y'all had an amazing Onam!🤩 And that you are done with your projects! 
 
 Pls send a screen recording with a voiceover of one of the team members explaining the code and showing the output. 
