@@ -1,0 +1,63 @@
+#include<stdio.h>
+#include<stdlib.h>
+void main(){
+    int studentNumber;
+    char action,studentName[studentNumber];
+    int database[studentNumber][4];
+    printf("Enter number of Young Readers today");
+    scanf("%d",&studentNumber);
+    for(int i=0;i<studentNumber;i++){
+        printf("Enter name of student no %d = ",i+1);
+        scanf("%s",&studentName[i]);
+        printf("\n");
+        database[i][1]=100+i;
+        printf("Unique code for student generated! = %d",database[i][1]);
+        printf("\n");
+        printf("Data entered. Thank You!");
+        printf("\n");
+        system("clear");
+    }
+    /*for adding new student and other functions*/
+    printf("Would you like to exit(e),CheckOut(o)");
+        scanf("%c",&action);
+    do{
+        if (action=='o'){
+            int readyCheck;
+            printf("Enter number of Readers ready for checkout");
+            scanf("%d",readyCheck);
+            //segmentation error
+            for(int j=1;j<=readyCheck;j++){
+                char name[20];
+                int index;
+                printf("Enter name of checkoutee");
+                scanf("%s",&name);
+                //to find the index of the checkoutee
+                for(int k=0;k<studentNumber;k++){
+                    if(studentName[k]==name){
+                        index=k;
+
+                    }
+                }
+                //the code prompts for checking out
+                printf("Enter name code of book taken = ");
+                scanf("%d",&database[index][2]);
+                printf("\n)");
+                printf("Enter date of issue = ");
+                scanf("%d",&database[index][3]);
+                printf("\n)");
+                printf("Enter date of return = ");
+                scanf("%d",&database[index][4]);
+                printf("\n)");
+            }
+        
+        
+        }
+        else{
+            printf("exiting....");
+        }
+        printf("Would you like to exit(e),CheckOut(o)");
+        scanf("%c",&action);
+    }while(action!='e');
+    
+
+}
